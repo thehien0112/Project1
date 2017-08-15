@@ -8,9 +8,12 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
     <style name="CustomButton">
-        <item name="android:layout_width">140dp</item>
-        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_width">136dp</item>
+        <item name="android:layout_height">32dp</item>
         <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16dp</item>
+
     </style>
 
 </resources>
