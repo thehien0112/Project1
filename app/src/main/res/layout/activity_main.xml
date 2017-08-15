@@ -18,7 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:text="Do you like Cốc Cốc?"
+            android:text="@string/title"
             android:textColor="@android:color/white"
             android:textSize="20dp" />
 
@@ -34,7 +34,7 @@
             style="@style/CustomButton"
             android:layout_marginRight="20dp"
             android:background="@drawable/button1"
-            android:text="Not really"
+            android:text="@string/button1_name"
             android:textAllCaps="false"
             android:textColor="@android:color/white"
             android:textSize="17dp" />
@@ -42,7 +42,7 @@
         <Button
             style="@style/CustomButton"
             android:background="@drawable/button2"
-            android:text="Yes"
+            android:text="@string/button2_name"
             android:textAllCaps="false"
             android:textColor="#ff50b962"
             android:textSize="17dp" />
