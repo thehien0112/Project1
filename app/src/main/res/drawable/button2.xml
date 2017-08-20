@@ -12,7 +12,5 @@
         />
     <solid
         android:color="@android:color/white"/>
-    <stroke
-        android:color="@android:color/white"
-        android:width="2dp" />
+
 </shape>

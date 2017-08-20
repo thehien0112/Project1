@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -19,7 +18,7 @@
             android:layout_margin="16dp"
             android:text="@string/title"
             android:textColor="@android:color/white"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
     </LinearLayout>
 
@@ -31,10 +30,13 @@
 
         <Button
             style="@style/CustomButton"
-            android:layout_marginRight="20dp"
             android:background="@drawable/button1"
             android:text="@string/button1_name"
             android:textColor="@android:color/white" />
+        
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="0dp" />
 
         <Button
             style="@style/CustomButton"
